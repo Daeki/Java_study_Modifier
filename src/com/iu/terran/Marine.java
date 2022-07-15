@@ -1,8 +1,9 @@
 package com.iu.terran;
 
+import com.iu.unit.Attacker;
 import com.iu.unit.Unit;
 
-public class Marine extends Unit {
+public class Marine extends Unit implements Attacker {
 	
 
 	
@@ -36,7 +37,11 @@ public class Marine extends Unit {
 		System.out.println("Marine Info");
 	}
 	
-	public void shoot() {
+	public void attack() {
+		this.shoot();
+	}
+	
+	private void shoot() {
 		System.out.println("우다다닫");
 	}
 

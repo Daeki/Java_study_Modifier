@@ -3,6 +3,7 @@ package com.iu.main;
 import com.iu.terran.Marine;
 import com.iu.terran.Scv;
 import com.iu.unit.Unit;
+import com.iu.zerg.Hydra;
 
 public class Main {
 
@@ -14,7 +15,10 @@ public class Main {
 		//Scv    is a Unit
 		
 		Unit unit = m1;
+		Hydra hydra = new Hydra();
 		
+		m1.attack();
+		hydra.attack();
 		
 		
 		
