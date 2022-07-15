@@ -10,6 +10,7 @@ public class Marine extends Unit {
 	
 	
 	public Marine() {
+		super(30);
 
 		
 		System.out.println("Marine 생성자");
