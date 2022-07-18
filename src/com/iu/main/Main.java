@@ -9,6 +9,7 @@ public class Main {
 		int [] nums = {1,2,3};
 		
 		
+		
 		//1. com.iu.util.CollectionStack
 			 //add - 새로운 숫자 추가 무조건 0번에 추가
 			 //remove - 0번 인덱스 삭제 
